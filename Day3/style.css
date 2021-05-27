@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(211, 181, 181, 0.493);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(27, 25, 25, 0.692);
+}   
+form{
+    border:2px solid rgba(218, 78, 36, 0.568);
+    border-radius: 50px;
+    border-width: 8px;
+    background-color: rgba(197, 78, 78, 0.589);
+    padding: 30px;
+}
+input,label{
+    margin:10px;
+}
+input{
+    width:400px;
+    height: 50px;
+    border-radius: 10px;
+    border-color:white;
+    border-width: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color:rgba(131, 55, 55, 0.877);
+}
+button{
+    border-color:goldenrod;
+    border-width: 6px;
+    border-radius: 20px;
+    width:200px;
+    height:40px;
+    font-size: 20px;
+}
