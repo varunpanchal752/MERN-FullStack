@@ -1,9 +1,11 @@
+body {
+    margin: 0px;
+}
 nav{
     background-color: rgb(2, 146, 172);
-    padding:8px;
+    padding:20px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius:2px;
 }
 a{
     margin-left: 3%;
@@ -20,7 +22,7 @@ div{
     border:1px solid black;
     float:left;
     width:280px;
-    height:400px;
+    height:450px;
     margin:10px;
     border-width: 3px;
     border-color: rgb(0, 0, 0);
@@ -34,4 +36,17 @@ img{
 p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans- ;
     margin:25px;
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 100px;
+    border-width: 5px;
+    border-radius: 5px;
+
+}
+
+
+body {
+    margin: 0px;
 }
