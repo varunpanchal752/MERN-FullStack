@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body
+    style="
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    "
+  >
+    <header style="margin-top: 32px; margin-bottom: 24px">
+      <img
+        src="https://image.flaticon.com/icons/png/512/25/25231.png"
+        class="rounded mx-auto d-block"
+        width="48"
+        height="48"
+        alt="Github"
+      />
+    </header>
+    <main
+      style="
+        width: 340px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      "
+    >
+      <h1 style="font-weight: 300; font-size: 24px; text-align: center">
+        Sign in to Github
+      </h1>
+      <div>
+        <form style="font-size: 14px">
+          <div
+            style="
+              border: 1px solid #f6f8fa;
+              padding: 30px;
+              border-radius: 6px;
+              background-color: #f6f8fa;
+            "
+          >
+            <div>
+              <label for="username" style="float: left"
+                >Username or email address</label
+              >
+              <input class="form-control" type="text" name="username" />
+            </div>
+            <br />
+            <div>
+              <label for="password" style="float: left">Password</label>
+              <a href="#" style="float: right; font-size: 12px; color: #0366d6"
+                >Forgot password?</a
+              >
+              <br />
+              <input class="form-control" type="password" name="password" />
+            </div>
+            <br />
+            <input
+              class="btn btn-success btn-block btn-sm"
+              type="submit"
+              name="commit"
+              value="Sign in"
+            />
+          </div>
+          <p
+            class="login-callout mt-3"
+            style="
+              border: 1px solid #d1d5da;
+              padding: 15px 20px;
+              border-radius: 6px;
+              font-size: 14px;
+            "
+          >
+            New to Github?<a href="#n" style="color: #0366d6"
+              >Create an account.</a
+            >
+          </p>
+        </form>
+      </div>
+    </main>
+    <footer
+      class="footer list-style-none d-flex flex-justify-center"
+      style="
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        padding: 40px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+      "
+    >
+      <a href="#3" style="color: #0366d6; margin-right: 16px">Terms</a>
+      <a href="#2" style="color: #0366d6; margin-right: 16px">Privacy</a>
+      <a href="#1" style="color: #0366d6; margin-right: 16px">Security</a>
+      <a href="#7" style="color: #596069">Contact Github</a>
+    </footer>
+  </body>
+</html>
