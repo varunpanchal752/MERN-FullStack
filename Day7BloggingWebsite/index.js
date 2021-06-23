@@ -7,7 +7,7 @@ const userRoutes = require('./routes/user-routes');
 const adminRoutes = require('./routes/admin-routes');
 const HttpError = require('./utils/http-error');
 
-const port = 3000;
+const port = 3001;
 app.use(bodyParser.json());
 
 app.use('/api/v1/user',userRoutes);
@@ -23,7 +23,7 @@ app.use((error,req,res,next) => {
     res.json({message: error.message || 'Unknown error occured' , code: error.code });
  });
   
-mongoose.connect('<Enter your connection string here>',
+mongoose.connect('',
   {
     useUnifiedTopology: true,
     useNewUrlParser: true

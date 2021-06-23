@@ -23,20 +23,21 @@ const userSignup = async (req, res, next) => {
     return next(error);
   }
 
-  let hashedPasswaord;
-  try {
-    hashedPasswaord = await bcrypt.hash(password, 12);
-  } catch (err) {
-    console.log(err);
-    const error = new HttpError("Password encryption failed", 500);
-    return next(error);
-  }
+  let hashedPassword;
+  // try 
+  {
+    hashedPassword = await bcrypt.hash(password, 12);
+   }//catch (err) {
+  //   console.log(err);
+  //   const error = new HttpError("Password encryption failed", 500);
+  //   return next(error);
+  // }
 
   const createdUser = new User({
     firstname: firstname,
     lastname: lastname,
     email: email,
-    password: hashedPasswaord,
+    password: hashedPassword,
     dob: dob
   });
 

@@ -1,0 +1,94 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(170, 57, 57, 0.514),
+    rgba(207, 144, 27, 0.466),
+    rgba(197, 197, 33, 0.493),
+    rgba(53, 168, 53, 0.651),
+    rgba(71, 71, 167, 0.397),
+    rgba(130, 86, 161, 0.438),
+    rgba(177, 142, 177, 0.582)
+  );
+  font-family: "Viaoda Libre", cursive;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.main-div {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.heading-div {
+  text-align: center;
+}
+
+.cards {
+  width: 270px;
+  padding: 13px;
+  box-shadow: 7px 7px 13px rgba(161, 120, 161, 0.616);
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+button {
+  position: relative;
+  width: 90px;
+  left: 65%;
+  margin: 10px 0px;
+  font-family: "Viaoda Libre", cursive;
+  font-weight: 600;
+  font-size: medium;
+  background-color: white;
+  border: 2px solid #e7e7e7;
+}
+
+button:hover {
+  background-color: #e7e7e7;
+}
+
+input[type="text"] {
+  margin: 4px 0px;
+  padding: 2px;
+  font-family: "Viaoda Libre", cursive;
+  width: 100%;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to bottom right,
+    rgba(170, 57, 57, 0.514),
+    rgba(207, 144, 27, 0.466),
+    rgba(197, 197, 33, 0.493),
+    rgba(53, 168, 53, 0.651),
+    rgba(71, 71, 167, 0.397),
+    rgba(130, 86, 161, 0.438),
+    rgba(177, 142, 177, 0.582)
+  );
+}
+
+.items {
+  padding-left: 0;
+}
+
+.item {
+  list-style-type: none;
+  padding: 2px;
+  border-bottom: 2px solid rebeccapurple;
+}
+
+input[type="checkbox"] {
+  display: initial;
+}
