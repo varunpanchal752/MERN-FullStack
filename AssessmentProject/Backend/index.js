@@ -17,7 +17,7 @@ app.use((req,res,next) => {
 
 app.get('/postsId',(req,res) => {
     axios(`https://jsonplaceholder.typicode.com/posts/${req.query.id}/comments`)
-    .then((response) => {res.send(JSON.stringify(response.data));} )
+    .then((response) => {res.send(response.data);} )
     .catch((err)=>{console.log(err,"Error occured in posts comments")} );
 });
 
@@ -25,7 +25,7 @@ app.get('/posts',(req,res) => {
     let  respond ;
     axios('https://jsonplaceholder.typicode.com/posts')
     .then((response) => {respond = response.data; 
-        res.send(JSON.stringify(respond));} )
+        res.send(respond);} )
     .catch((err)=>{console.log(err,"Error occured in posts")} );
 });
 
